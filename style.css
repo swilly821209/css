@@ -1,0 +1,29 @@
+.content {
+  display:flex;
+  justify-content: space-around;
+  width: 768px;
+  margin: 20px auto 50px auto;
+}
+.content-aside{
+  flex-basis: 240px;
+  text-align: center;
+  position: relative;
+  padding-right: 30px;
+  top: -100px;
+}
+
+.content-aside__avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+table,td,tr{
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.content__work {
+  line-height: 40px;
+}
